@@ -1,0 +1,78 @@
+/* Figma: Restaurant Card (node 1:7) */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  min-width: 0;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--text-primary);
+}
+
+.meta {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-secondary);
+}
+
+/* Figma uses two spaces either side of the middle dot */
+.separator {
+  margin: 0 0.5em;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  font-size: 14px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.rating {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.dot {
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.time {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  white-space: nowrap;
+}
